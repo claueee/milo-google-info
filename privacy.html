@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; connect-src 'none'; form-action 'none'; base-uri 'none'">
-<title>Milo — privatlivstekst (udkast)</title>
-<meta name="description" content="Milo er en privat Google-assistent. Lokal informationsside til gennemgang før eventuel udgivelse.">
+<title>Milo — privatlivstekst</title>
+<meta name="description" content="Milo er en privat Google-assistent. Offentlig informationsside om integrationen.">
 <style>
 :root{color-scheme:light;--paper:#f8f6f2;--ink:#242b29;--muted:#53615c;--line:#d8ddd8;--accent:#155e53}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 Arial,Helvetica,sans-serif}a{color:var(--accent);text-underline-offset:.2em}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px;border-radius:2px}.wrap{max-width:800px;margin:auto;padding:24px 24px 44px}header{display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);padding-bottom:18px}.brand{font-size:22px;font-weight:700;letter-spacing:-.03em;color:var(--ink);text-decoration:none}nav{display:flex;gap:16px;flex-wrap:wrap}nav a{display:inline-flex;align-items:center;min-height:44px;font-size:15px}main{padding-top:30px}.draft{font-size:13px;color:var(--muted);margin:0 0 22px}.eyebrow{font-size:13px;font-weight:700;color:var(--accent);letter-spacing:.08em;text-transform:uppercase;margin:0 0 10px}h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(32px,6vw,48px);font-weight:400;line-height:1.12;letter-spacing:-.035em;margin:0 0 22px}h2{font-size:21px;line-height:1.35;margin:30px 0 10px}p{margin:0 0 16px}.intro{font-size:20px;line-height:1.55;max-width:38em}ul{padding-left:22px;margin:0 0 18px}li{margin:6px 0}.note{border:1px solid var(--line);padding:16px 18px;margin:26px 0}.note p:last-child{margin-bottom:0}.muted{color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:36px;padding-top:18px;font-size:13px;color:var(--muted)}footer a{display:inline-flex;min-height:44px;align-items:center}@media(max-width:480px){.wrap{padding:18px 20px 32px}header{align-items:flex-start;flex-direction:column;gap:4px}main{padding-top:22px}.intro{font-size:19px}.note{padding:14px}}
@@ -14,12 +14,12 @@
 </head>
 <body><div class="wrap">
 <header><a class="brand" href="index.html">Milo</a><nav aria-label="Hovedmenu"><a href="index.html">Om Milo</a><a href="privacy.html">Privatliv</a></nav></header>
-<main><p class="draft">Lokalt udkast · ikke offentliggjort · 11. oktober 2026</p><p class="eyebrow">Adgang, behandling og opbevaring</p>
+<main><p class="draft">Offentliggjort 13. oktober 2026</p><p class="eyebrow">Adgang, behandling og opbevaring</p>
 <h1>Privatliv for den<br>personlige assistent.</h1>
 <p class="intro">Denne beskrivelse forklarer, hvordan Milos private Google-integration bruger, deler og gemmer oplysninger.</p>
 <h2>1. Formål og bruger</h2>
 <p>Milo er ejerens personlige assistent. Google-integrationen bruges til at finde og sammenfatte relevante mails, planlægge ud fra kalenderaftaler og udføre konkrete, godkendte handlinger. Der er ingen offentlig tilmelding.</p>
-<p>Google-adgangen forbindes gennem gog. Den eksisterende OAuth-klient er oprettet med navnet OpenClaw gog; Milo er navnet på den personlige assistent, som bruger integrationen.</p>
+<p>Google-adgangen forbindes gennem værktøjet gog og bruger en OAuth-klient med navnet Milo.</p>
 <h2>2. Oplysninger fra Google</h2>
 <ul><li><strong>Gmail:</strong> afsender, modtager, emne, tidspunkt og relevant indhold. Vedhæftninger behandles, når opgaven kræver det.</li><li><strong>Google Kalender:</strong> relevante aftalers titel, tidspunkt, beskrivelse og deltagere.</li><li><strong>Google Tasks:</strong> historiske opgaveoplysninger kan læses ved en særskilt bestilt gennemgang eller migration. Nye opgaver håndteres i Todoist, ikke Google Tasks.</li></ul>
 <p>De faktiske tilladelser fremgår af Google-kontoens autorisation. En teknisk tilladelse er ikke i sig selv en bestilling på at sende mails, ændre aftaler eller slette oplysninger.</p>
@@ -39,11 +39,11 @@
 <p>Anmodninger om rettelse eller sletning kan sendes til kontaktadressen nedenfor. En sletteanmodning skal afgrænses til de relevante samtaler, filer og afledte hukommelsesoplysninger. Backupkopier og udbyderens eventuelle opbevaring skal håndteres særskilt. Sletning fra ét lager er ikke i sig selv bevis for sletning fra alle lagre.</p>
 <h2>7. Denne informationsside</h2>
 <p>Siden indeholder kun beskrivelsen af værktøjet og den valgte kontaktadresse. Den giver ikke adgang til NAS'en, mails, kalenderen eller assistenten. Siden har ingen formularer, JavaScript, indlejrede ressourcer eller analyse-/trackingkode.</p>
-<p>Den foreslåede webhost er GitHub Pages. Ved udgivelse kan GitHub registrere besøgendes IP-adresser til sikkerhedsformål efter sine egne vilkår. Ingen Google-kontodata ud over den valgte offentlige kontaktadresse lægges på siden.</p>
+<p>Siden hostes på GitHub Pages. GitHub kan registrere besøgendes IP-adresser til sikkerhedsformål efter sine egne vilkår. Ingen Google-kontodata ud over den valgte offentlige kontaktadresse lægges på siden.</p>
 <h2>8. Kontakt og ændringer</h2>
 <p>Kontakt om integrationen og behandling af oplysninger: <strong>clausbrjensen@gmail.com</strong>.</p>
 <p>Beskrivelsen skal opdateres, hvis AI-udbydere, lagring eller brugen af Google-oplysninger ændres. Nye anvendelser kræver relevant information og godkendelse, før de tages i brug.</p>
-<div class="note"><p><strong>Til ejerens godkendelse</strong></p><p>Dette er den samlede lokale tekst efter gennemgangen. Ingen side er offentliggjort, og teksten er ikke en Google-verifikation eller en uafhængig juridisk godkendelse.</p></div>
+<div class="note"><p><strong>Status</strong></p><p>Siden er offentliggjort 13. oktober 2026. Teksten er ikke en Google-verifikation eller en uafhængig juridisk godkendelse.</p></div>
 </main>
 <footer>Informationsside til en privat integration. Dette er ikke en adgangsportal til assistenten eller til Google-kontoen.</footer>
 </div></body>
